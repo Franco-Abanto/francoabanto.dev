@@ -105,9 +105,9 @@ body{
 }
 
 .content{
-    max-width: 700px;
+    max-width: 650px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 400px;
 }
 
@@ -115,10 +115,14 @@ body{
     width: 100%;
     text-align: left;
     font-size: 20px;
-    
+}
+
+.title h1{
+    margin-bottom: 50px;
 }
 
 .title h3{
+    width: 421px;
     margin-bottom: 0px;
 }
 
@@ -134,8 +138,6 @@ body{
 }
 
 .description{
-    /*float: left;
-    width: 400px;*/
     text-align: left;
     font-size: 17px;
     padding-left: 10px;
@@ -144,7 +146,7 @@ body{
 }
 
 .avatar{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .avatar img{
@@ -208,6 +210,11 @@ body{
     font-size: 16px;
 }
 
+.sombreado{
+    
+    background: rgb(242, 228, 228);
+}
+
 /*Responsive*/
 
 @media(max-width: 1190px){
@@ -224,6 +231,10 @@ body{
 
     .title{
         font-size: 16px;
+    }
+
+    .title h3{
+        width: 340px;
     }
 }
 
