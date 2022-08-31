@@ -1,0 +1,320 @@
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+
+#header{
+    height: 65px;
+    width: 100%;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.4)!important;
+}
+
+.center{
+    width: 90%;
+    margin: 0px auto;
+}
+
+#logo{
+    width: 20%;
+    font-size: 23px;
+    float: left;
+    margin-top: 10px;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+#logo img{
+    display: block;
+    float: left;
+    height: 43px;
+    transition: 200ms all;
+}
+
+#logo img:hover{
+    transform: scale(1.18);
+}
+
+#brand{
+    display: block;
+    margin: 5px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+#menu{
+    width: 80%;
+    float: right;
+    font-size: 16px;
+    
+}
+
+#menu ul{
+    line-height: 70px;
+    margin: 0px;
+    width: auto;
+    float: right;
+    
+}
+
+#menu ul li{
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    margin-left: 30px;
+
+}
+
+#menu a{
+    text-decoration: none;
+    padding-bottom: 3px;
+    color: #444;
+}
+
+#menu a:hover{
+    border-bottom: 2px solid #c50909;
+    
+}
+
+.banner{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center 50%;
+    
+}
+
+.sub-banner{
+    width: 100%;
+}
+
+.eye-banner{
+    width: 150px;
+    margin-top: -151px;
+}
+
+.content{
+    max-width: 650px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 400px;
+}
+
+.title{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.title h1{
+    margin-bottom: 50px;
+}
+
+.title h3{
+    width: 421px;
+    margin-bottom: 0px;
+    background: rgb(242, 228, 228) !important;
+}
+
+.separator{
+    width: 100%;
+    border-bottom: 1px solid rgba(235, 236, 237, 0.8);
+    margin: 8px 0;
+    margin-bottom: 30px;
+}
+
+#presentation{
+    display: flex;
+}
+
+.description{
+    text-align: left;
+    font-size: 17px;
+    padding-left: 10px;
+    border-left: 3px solid #444;
+    
+}
+
+.avatar{
+    padding-left: 20px;
+}
+
+.avatar img{
+    width: 200px;
+}
+
+
+#footer{
+    width: 100%;
+    height: 160px;
+    padding: 27px 0;
+    background: rgb(233, 233, 233);
+}
+
+.social{
+    margin-bottom: 30px;
+    color: #444;
+
+}
+
+.social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 200ms all;
+}
+
+.social a:hover{
+    transform: scale(1.16);
+}
+
+#nav-footer{
+    font-size: 16px;
+    margin-top: 0;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+#nav-footer li{
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+#nav-footer li a{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #444;
+}
+
+#end{
+    font-size: 16px;
+}
+
+.sombreado{
+    
+    
+}
+
+/*Responsive*/
+
+@media(max-width: 1190px){
+    /*Se ejecutan estos estilos*/
+    
+    
+    #menu{
+        width: 60%;
+    }
+
+    #logo{
+        width: 30%;
+    }
+
+    .title{
+        font-size: 16px;
+    }
+
+    .title h3{
+        width: 340px;
+    }
+}
+
+@media(max-width: 968px){
+    /*Se ejecutan estos estilos*/
+    .content{
+        max-width: 550px;
+    }
+    
+    #menu{
+        width: 500px;
+    }
+
+    #logo{
+        width: 240px;
+    }
+
+    .title{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 822px){
+    /*Se ejecutan estos estilos*/
+    
+    #logo{
+        float: none;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    #header{
+        height: auto;
+    }
+
+    #menu,
+    #menu ul{ 
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        clear: both;
+        float: none;
+    }
+
+}
+
+@media(max-width: 680px){
+    /*Se ejecutan estos estilos*/
+    #presentation{
+        display: inline;
+    }
+    
+    .content{
+        max-width: 80%;
+        margin-bottom: 100px;
+    }
+
+    .avatar{
+        margin-top: 40px;
+        padding: 0px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 495px){
+    /*Se ejecutan estos estilos*/
+
+    #footer{
+        height: auto;
+    }
+
+    #nav-footer li a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .social a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
